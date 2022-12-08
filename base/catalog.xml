@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<catalog>
+  <item id="1">
+    <name>MATRIX shine rinse</name>
+    <cost>1000</cost>
+    <info>MATRIX total results high amplify shine rinse lamellar treatment</info>
+    <producer>MATRIX</producer>
+    <keywords>total resukt</keywords>
+    <img>uploads/catalog-img/matrix-shine-rinse.jpg</img>
+  </item>
+  <item id="2">
+    <name>Power of Seduction</name>
+    <cost>922</cost>
+    <info>premium perume</info>
+    <producer>Antonio Banderas</producer>
+    <keywords>perfume</keywords>
+    <img>/uploads/catalog-img/Power-of-seduction.jpg</img>
+  </item>
+  <item id="3">
+    <name>Fruit</name>
+    <cost>856</cost>
+    <info/>
+    <producer>&#x412;i&#x442;&#x435;&#x43A;&#x441;</producer>
+    <keywords>&#x443;&#x43C;&#x44B;&#x432;&#x430;&#x448;&#x43A;&#x430;</keywords>
+    <img>uploads/catalog-img/viteks-fruit.jpg</img>
+  </item>
+  <item id="4">
+    <name>43</name>
+    <cost>100</cost>
+    <info/>
+    <producer/>
+    <keywords/>
+    <img>uploads/catalog-img/matrix-shine-rinse.jpg</img>
+  </item>
+</catalog>

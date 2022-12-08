@@ -1,0 +1,21 @@
+
+.admin-header {
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-menu-bar > li > a{
+    margin: 0px 10px;
+    padding: 5px 10px;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    transition: background-color 0.1s ease-in-out, color 0,1s ease-in-out;
+}
+
+.main-menu-bar > li > a:hover {
+    background-color: gray;
+    color: white;
+}

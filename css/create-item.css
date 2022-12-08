@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+
+.catalog-add-form{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(126, 126, 126);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    height: auto;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    resize: none;
+    margin: 5px 0px;
+    padding: 2px;
+    border-bottom: 2px solid rgb(126, 126, 126);
+}
+
+.img input, .enter{
+    font-size: 0.8rem;
+    border-bottom: 0px;
+}
+
+form div p {
+    margin: 5px 5px;
+    float: left;
+}
+
+form div input {
+    float: left;
+}
+
+
+button {
+    margin-top: 10px;
+    width: 100px;
+}

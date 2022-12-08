@@ -1,0 +1,82 @@
+.modal-window-background {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+    background-color: rgba(0, 0, 0, 0.324);
+
+}
+
+.modal-window {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 0.8rem;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaaaaa;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.specifications {
+    width: 40%;
+    overflow: hidden;
+}
+
+
+.modal-window img {
+    width: 98%;
+    border: 2px solid gray;
+    border-radius: 10%;
+}
+
+.modal-window > div, .modal-window ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.modal-window li {
+    margin-top: 10px;
+}
+
+.main-info {
+    margin-left: 10px;
+}
+
+.main-info > span {
+    margin-top: 30px
+}
+
+.elem-name {
+    font-size: 1rem;
+    max-height: 50%;
+}
